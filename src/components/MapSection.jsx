@@ -17,7 +17,7 @@ import {
   LocateFixed,
 } from "lucide-react";
 
-import { trucks } from "../data/trucks";
+import { trucks } from "../data/Trucks";
 
 
 // Map Location Controller
