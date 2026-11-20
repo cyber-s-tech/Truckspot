@@ -74,7 +74,7 @@ const steps = [
 
 ];
  
-const HowItWorks = () => {
+const HowWork = () => {
 
   return (
 <section
@@ -252,5 +252,5 @@ const HowItWorks = () => {
 
 };
  
-export default HowItWorks;
+export default HowWork;
  

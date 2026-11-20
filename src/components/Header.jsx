@@ -69,11 +69,11 @@ const Header = () => {
                     {/* Desktop CTA */}
 
                     <a
-                        href="#download"
+                        href="#trucks"
                         className="hidden lg:flex items-center gap-2 bg-[#24211e] hover:bg-orange-500 text-white px-6 py-3.5 rounded-full font-bold text-sm transition-all duration-300"
                     >
 
-                        Download App
+                        Food Truck
 
                         <ArrowUpRight size={17} />
 
@@ -121,12 +121,12 @@ const Header = () => {
                             ))}
 
                             <a
-                                href="#download"
+                                href="#trucks"
                                 onClick={() => setIsOpen(false)}
                                 className="bg-orange-500 text-white text-center py-3.5 rounded-full font-bold"
                             >
 
-                                Download App
+                                Food Truck
 
                             </a>
 

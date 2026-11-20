@@ -2,7 +2,7 @@ import FeaturedTrucks from "./components/FeaturedTruck";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroBanner from "./components/HeroBanner";
-import HowItWorks from "./components/HowitWorks";
+import HowWork from "./components/HowWork";
 import MapSection from "./components/MapSection";
 import Newsletter from "./components/Newsletter";
 import TruckCard from "./components/TruckCard";
@@ -21,7 +21,7 @@ function App() {
         <MapSection/>
         <TruckCard/>
         <FeaturedTrucks/>
-        <HowItWorks/>
+        <HowWork/>
         <Newsletter/>
       </main>
        <Footer/>
