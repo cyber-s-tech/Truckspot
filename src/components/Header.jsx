@@ -19,7 +19,7 @@ const Header = () => {
     ];
 
     return (
-        <header className="sticky top-0 z-50 bg-[#fffaf4]/95 backdrop-blur-xl border-b border-orange-100">
+        <header className="sticky top-0 z-999999999 bg-[#fffaf4]/95 backdrop-blur-xl border-b border-orange-100">
 
             <div className="max-w-7xl mx-auto px-5 lg:px-8">
 
