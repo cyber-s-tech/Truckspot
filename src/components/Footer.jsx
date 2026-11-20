@@ -39,10 +39,10 @@ const Footer = () => {
                         <a href="#home" className="inline-flex items-center gap-3">
 
                             <div className="w-15 h-15   flex items-center justify-center text-white  shadow-orange-200">
-                            
-                                                        <img src={logo} alt="" />
-                                                    </div>
-                            
+
+                                <img src={logo} alt="" />
+                            </div>
+
 
                             <span className="text-2xl font-extrabold tracking-tight">
 
@@ -262,8 +262,15 @@ const Footer = () => {
                 <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-5">
 
                     <p className="text-sm text-stone-500 text-center md:text-left">
-
-                        © {new Date().getFullYear()} Truck Spot. All rights reserved.
+                        © {new Date().getFullYear()} Designed and Developed by{' '}
+                        <a
+                            href="https://ahaansoftware.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-bold hover:underline"
+                        >
+                            Ahaan Software
+                        </a>.
                     </p>
 
                     <a
